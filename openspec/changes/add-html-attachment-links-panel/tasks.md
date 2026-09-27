@@ -15,4 +15,4 @@
 ## 3. Verification and documentation
 
 - [ ] 3.1 Document installation, required capabilities, privacy boundaries, and manual verification for web and desktop without internal URLs or secrets.
-- [ ] 3.2 Run platform contract tests, plugin tests/build, manifest validation, and repository OpenSpec checks; record reproducible command evidence in the implementation handoff.
+- [ ] 3.2 Run platform contract tests, plugin tests/build, manifest validation, and repository OpenSpec checks; publish both canonical feature branches and record both exact result SHAs, base ancestry, remote equality, clean worktrees, and integration evidence in the implementation handoff.

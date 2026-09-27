@@ -23,6 +23,7 @@ HTML-документы уже прикрепляются к задачам Mult
 
 ## Impact
 
-- Новый plugin остаётся внутри `plugins/html-attachment-links/` и использует только `issues:read` и `storage:workspace`.
-- Минимальный platform gap затрагивает Public/Plugin API, surface bridge и Plugin SDK Multica; модель вложений и штатный preview не меняются.
+- Plugin реализуется в canonical repository `https://github.com/maximchikAlexandr/multica-plugins` внутри `plugins/html-attachment-links/` и использует только `issues:read` и `storage:workspace`.
+- Минимальный platform gap реализуется в canonical repository `https://github.com/multica-ai/multica.git` на pinned main revision `fa5d470ae40a082d952b50e843287906566785a6`; он затрагивает Public/Plugin API, surface bridge и Plugin SDK, но не меняет модель вложений или штатный preview.
+- Один исполнитель владеет обеими feature-ветками и публикует два exact result SHA как единый интеграционный результат.
 - Новых сторонних зависимостей, сетевых разрешений, миграции данных и публичных внутренних URL нет.
